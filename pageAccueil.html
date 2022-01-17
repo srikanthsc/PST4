@@ -13,7 +13,7 @@
     <body>
 
         <div class="sidenav">
-            <a href="../PST4/pageAccueil.html"> <img src="profile2.png" position= "absolute" width="120px" height="85px" left="19px" top="-20px"></a>
+            <a href="../PST4/pageAccueil.html"> <img src="profile2.png" position= "absolute" width="95px" height="40px" left="19px" top="-20px"></a>
             <hr class="hr1">
             <a href="../PST4/pageAccueil.html">Accueil</a>
             <a href="#services">Dashborad</a>
@@ -24,13 +24,32 @@
             <a class="regl" href="#réglages">Réglages</a>
         
             <input class="button" type="button" value="Je signale un évenement"/>
-        </div>    
+        </div>
+        <center>
+                <div id="searchUsers" class="instant-search">
+                <div class="instant-search__input-container" style="left: 80%;">
+                <input class="barre" type="text" spellcheck="false" placeholder="Rechercher">
+                <!--la il manque le logo de la loupe je sais pas comment t'as fait -->
+                <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+                <i class="material-icons instant-search__icon" style="position:static; left:0%;right:0%;top:0%;bottom: 0%;">search</i>
 
+        </center>
+        <div class="cadr1" Align=RIGHT>
+        <!--la il faut trouver une solution pour le 0 que j'ai rajouté pour le mois normalemnt il affiche que 1 mais il faut ../01/..-->    
+            <strong> <p><center><strong><SCRIPT LANGUAGE="JavaScript">
+                var maintenant=new Date();
+                var jour=maintenant.getDate();
+                var mois=maintenant.getMonth()+1;
+                var an=maintenant.getFullYear();
+
+                document.write("",jour,"/0",mois,"/",an,"");
+                </SCRIPT>
+                </strong></center></p></strong></div>
 
     </body>
 
     <footer>
-
+        <hr class="hr3">
     </footer>
 
 </html>
