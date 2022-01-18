@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr-FR" style="height: 100% ;">
+
 
     <head>
 
@@ -15,13 +16,23 @@
         <div class="sidenav">
             <a href="../PST4/pageAccueil.html"> <img src="profile2.png" position= "absolute" width="95px" height="40px" left="19px" top="-20px"></a>
             <hr class="hr1">
-            <a href="../PST4/pageAccueil.html">Accueil</a>
-            <a href="#services">Dashborad</a>
-            <a href="#clients">Ressources</a>
-            <a href="#Chatbox">AVA</a>
-            <a href="#contact">Profil</a>
+            <a href="../PST4/pageAccueil.html"><img src="https://img.icons8.com/material-outlined/24/000000/home--v2.png"/>   Accueil</a>
+            <a href="../PST4/Dashboard.html"><img src="https://img.icons8.com/material-outlined/24/000000/dashboard-layout.png"/> Dashborad</a>
+             <!--debut pour l'onglet Ressources.-----------------------------------------------------------------------------------------------------------> 
+            <a href="../PST4/Ressources.html"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="16" height="16"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" 
+                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" 
+                font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path>
+                <g fill="#000000"><path d="M10.75,53.75h150.5v21.5h-150.5z"></path><path d="M159.1,55.9v17.2h-146.2v-17.2h146.2M163.4,51.6h-154.8v25.8h154.8v-25.8z">
+                </path><g><path d="M10.75,96.75h150.5v21.5h-150.5z"></path><path d="M159.1,98.9v17.2h-146.2v-17.2h146.2M163.4,94.6h-154.8v25.8h154.8v-25.8z">
+                </path></g></g></g></svg>  Ressources</a>
+            <!--fin pour l'onglet Ressources.-----------------------------------------------------------------------------------------------------------> 
+            <a href="../PST4/AVA.html"><img src="https://img.icons8.com/material-outlined/24/000000/topic--v1.png"/> AVA</a>
+            <a href="../PST4/Profil.html"><img src="https://img.icons8.com/material-outlined/20/000000/user--v1.png"/> Profil</a>
             <hr class="hr2">
-            <a class="regl" href="#réglages">Réglages</a>
+            <a class="regl" href="../PST4/Reglages.html"><img src="https://img.icons8.com/material-outlined/24/000000/settings--v1.png"/> Réglages</a>
         
             <input class="button" type="button" value="Je signale un évenement"/>
         </div>
@@ -35,17 +46,36 @@
 
         </center>
         <div class="cadr1" Align=RIGHT>
-        <!--la il faut trouver une solution pour le 0 que j'ai rajouté pour le mois normalemnt il affiche que 1 mais il faut ../01/..-->    
-            <strong> <p><center><strong><SCRIPT LANGUAGE="JavaScript">
+        <!--la il faut trouver une solution pour le 0 que j'ai rajouté pour le mois normalemnt il affiche que 1 mais il faut ../01/..-->  
+        <div class="police">  
+            <p><center><SCRIPT LANGUAGE="JavaScript">
                 var maintenant=new Date();
                 var jour=maintenant.getDate();
-                var mois=maintenant.getMonth()+1;
                 var an=maintenant.getFullYear();
-
-                document.write("",jour,"/0",mois,"/",an,"");
+                const monthNames = ["January", "February", "March", "April", "May", "June",
+                 "July", "August", "September", "October", "November", "December"
+                ]; // creation d'un tableau de mois
+                const d = new Date(); // instanciation de l'objet
+                document.write( monthNames[d.getMonth()]); //affiche le mois en string
+               // document.write("",jour,"/0",mois,"/",an,"");
+                document.write(" " + jour); //affiche le jour
+                document.write(" , " + an); // affiche l'annee
                 </SCRIPT>
-                </strong></center></p></strong></div>
+                </center></p></div></div>
 
+        <!--cadre pour l'air d'aujourd'hui.----------------------------------------------------------------------------------------------------------->   
+                <h9><center><div style="position: absolute;height: 400px;left: 278px;right: 505px;top: 75px;width: 652px;background: #FFFFFF;box-shadow: 0px 0px 16px #EBEFF2;border-radius: 4px;">
+                <Div Align=Left><blockquote>L'air aujourd'hui</blockquote></Div><hr style="height:2px;border-width:0;color:gray;background-color:gray"></center></h9>
+        <!--fin du cadre de l'air d'aujourd'hui-------------------------------------------------------------------------------------------------------->
+        
+        
+         <!--cadre Conseil.-----------------------------------------------------------------------------------------------------------------------------> 
+        <h9><center>
+            <div style="position: absolute;height: 225px;left: 288px;right: 500px;top: 588px;width:652px;background: #FFFFFF;box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);border-radius: 4px">
+        <Div Align=Left><blockquote> Conseils </blockquote></Div><hr style="height:2px;border-width:0;color:gray;background-color:gray"></center></h9>
+      </center></p></div>
+         <!--Fin du cadre Conseil.-----------------------------------------------------------------------------------------------------------------------------> 
+     
     </body>
 
     <footer>
