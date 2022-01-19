@@ -1,3 +1,5 @@
+
+/***************** pour tout les pages  ********************/
 .sidenav {
     position: absolute;
   width: 256px;
@@ -43,7 +45,7 @@
 }
 .hr3{
     position: absolute;
-    width: 1999px;
+    width: 1845px;
     height: 40px;
     left: -400px;
     top: 830px;
@@ -94,6 +96,7 @@
     background: #FFFFFF;
 }
 
+/*Rectangle avec la date*/
 .cadr1{
     position: absolute;width: 454px;height: 52px;left: 955px;top: 75px;
     /* white */
@@ -102,6 +105,7 @@
     box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
     border-radius: 4px;    
 }
+
 
 .police{
     font-family: Roboto;
