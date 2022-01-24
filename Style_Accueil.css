@@ -48,7 +48,7 @@
     width: 1838px;
     height: 40px;
     left: -400px;
-    top: 830px;
+    top: 825px;
 
     background: #7BE9CC;
     box-shadow: 1px 1px 2px rgba(159, 236, 207, 0.3), -1px -1px 2px rgba(155, 232, 203, 0.5), inset -1px 1px 2px rgba(155, 232, 203, 0.2), inset 1px -1px 2px rgba(155, 232, 203, 0.2), inset -1px -1px 2px rgba(159, 236, 207, 0.9), inset 1px 1px 3px rgba(155, 232, 203, 0.9);
@@ -75,8 +75,8 @@
 
 .button{
     position: absolute;
-    left: 10%;
-    right: 10%;
+    left: 5%;
+    right: 5%;
     top: 65%;
     
     /* white */
@@ -122,4 +122,46 @@
 
     color: #4C5862;
 }
+
+/******AVA******/
+.row{
+    position: absolute;
+    width: 1000px;
+    height: 38px;
+    left: 380px;
+    top: 750px;
+
+    border: 1px solid #AEAEC0;
+    box-sizing: border-box;
+    border-radius: 49px;
+}
+
+.container {
+    margin: 60px auto;
+    background: rgb(247, 244, 244);
+    padding: 0;
+    border-radius: 7px;
+  }
+  
+  input {
+    
+    width: 90%;
+  }
+  input::placeholder {
+    color: #e3e3e3;
+    font-weight: 350;
+    margin-left: 0px;
+  }
+  input:focus {
+    outline: none;
+  }
+  
+
+  
+  
+ 
+  
+
+ 
+ 
 
