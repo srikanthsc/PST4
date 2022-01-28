@@ -98,14 +98,49 @@
 
 /*Rectangle avec la date*/
 .cadr1{
-    position: absolute;width: 454px;height: 52px;left: 955px;top: 75px;
+    position: absolute;
+    height: 40px;
+    left: 451px;
+    right: 341px;
+    top: 101px;
+
     /* white */
     background: #FFFFFF;
-    /* box shadow */
-    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
-    border-radius: 4px;    
+    /* card shadow */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;   
 }
+.Prof{
+    position: absolute;
+    left: 0%;
+    right: 100%;
+    top: 0%;
+    bottom: 0%;
 
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+
+    /* dark_blue */
+    color: #334D6E;
+}
+.cadr2{
+    position: absolute;
+    height: 601px;
+    left: 451px;
+    right: 341px;
+    top: 181px;
+
+    /* white */
+    background: #FFFFFF;
+    /* card shadow */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
 
 .police{
     font-family: Roboto;
